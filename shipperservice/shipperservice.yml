@@ -1,29 +1,29 @@
 spring:
     jpa:
-        show-sql: true
-        platform: "mysql"
+        show-sql: 'true'
+        platform: 'mysql'
     database:
-        driverClassName: "com.mysql.jdbc.Driver"
+        driverClassName: 'com.mysql.jdbc.Driver'
     properties:
         hibernate:
-            dialect: org.hibernate.dialect.MySQL5InnoDBDialect
-            show_sql: true
-            format_sql: true
+            dialect: 'org.hibernate.dialect.MySQL5InnoDBDialect'
+            show_sql: 'true'
+            format_sql: 'true'
     datasource:
-        url: "jdbc:mysql://localhost:3306/db_shipper?useSSL=false"
-        username: root
-        password: mota
-        testWhileIdle: true
-        validationQuery: SELECT 1
+        url: 'jdbc:mysql://localhost:3306/db_shipper?useSSL=false'
+        username: 'root'
+        password: 'mota'
+        testWhileIdle: 'true'
+        validationQuery: 'SELECT 1'
 
 flyway:
     baseline-version: 1
-    check-location: true
-    enabled: true
-    locations: classpath:db/migration
+    check-location: 'true'
+    enabled: 'true'
+    locations: 'classpath:db/migration'
     sql-migration-prefix: 'V'
     sql-migration-separator: '_'
     sql-migration-suffix: '.sql'
-    url: jdbc:mysql://localhost:3306/db_shipper?useSSL=false
-    consumer: root
-    password: mota
+    url: 'jdbc:mysql://localhost:3306/db_shipper?useSSL=false'
+    consumer: 'root'
+    password: 'mota'
