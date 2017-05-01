@@ -10,7 +10,7 @@ spring:
             show_sql: 'true'
             format_sql: 'true'
     datasource:
-        url: 'jdbc:mysql://localhost:3306/db_shipper?useSSL=false'
+        url: 'jdbc:mysql://database:3306/db_shipper?useSSL=false'
         username: 'root'
         password: 'mota'
         testWhileIdle: 'true'
@@ -24,6 +24,6 @@ flyway:
     sql-migration-prefix: 'V'
     sql-migration-separator: '_'
     sql-migration-suffix: '.sql'
-    url: 'jdbc:mysql://localhost:3306/db_shipper?useSSL=false'
+    url: 'jdbc:mysql://database:3306/db_shipper?useSSL=false'
     consumer: 'root'
     password: 'mota'
