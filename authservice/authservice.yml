@@ -1,3 +1,25 @@
 spring:
-  profiles:
-    active: 'local'
+  jpa:
+    properties:
+      hibernate:
+        dialect: 'org.hibernate.dialect.MySQL5InnoDBDialect'
+        show_sql: 'true'
+        format_sql: 'true'
+  datasource:
+    driverClassName: 'com.mysql.jdbc.Driver'
+    url: 'jdbc:mysql://database:3306/db_azship?useSSL=false'
+    username: 'root'
+    password: 'mota'
+    testWhileIdle: 'true'
+    validationQuery: 'SELECT 1'
+
+entitymanager:
+  packages.to.scan: 'br.com.liftt.model'
+
+signing:
+  key: 'asd4hk1h22k2asAd12ad'
+
+security:
+  oauth2:
+    resource:
+      filter-order: 3
