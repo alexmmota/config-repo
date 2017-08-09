@@ -27,7 +27,7 @@ security:
 flyway:
   baseline-version: '1'
   check-location: 'true'
-  enabled: 'true'
+  enabled: 'false'
   locations: 'classpath:db/migration'
   sql-migration-prefix: 'V'
   sql-migration-separator: '_'
