@@ -1,0 +1,7 @@
+signing:
+  key: 'asd4hk1h22k2asAd12ad'
+
+security:
+  oauth2:
+    resource:
+       userInfoUri: 'http://authservice:8081/auth/user'
