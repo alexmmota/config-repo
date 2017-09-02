@@ -1,0 +1,22 @@
+spring:
+  jpa:
+    properties:
+      hibernate:
+        dialect: 'org.hibernate.dialect.MySQL5InnoDBDialect'
+        show_sql: 'true'
+        format_sql: 'true'
+  datasource:
+    driverClassName: 'com.mysql.jdbc.Driver'
+    url: 'jdbc:mysql://database:3306/db_azship?useSSL=false'
+    username: 'azship'
+    password: '4Z5h1P#L1F77M3'
+    testWhileIdle: 'true'
+    validationQuery: 'SELECT 1'
+  rabbitmq:
+    host: 'rabbitmq'
+    port: 5672
+    username: 'admin'
+    password: '1234'
+
+signing:
+  key: 'asd4hk1h22k2asAd12ad'
