@@ -12,6 +12,11 @@ spring:
     password: 'mota'
     testWhileIdle: 'true'
     validationQuery: 'SELECT 1'
+  rabbitmq:
+    host: 'amqp://rabbitmq'
+    port: 5672
+    username: 'admin'
+    password: '1234'
 
 entitymanager:
   packages.to.scan: 'br.com.liftt.model'
