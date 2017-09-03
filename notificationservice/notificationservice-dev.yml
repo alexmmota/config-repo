@@ -17,6 +17,17 @@ spring:
     port: 5672
     username: 'admin'
     password: '1234'
+  mail:
+    host: 'smtpout.secureserver.net'
+    port: 465
+    username: 'ti@liftt.me'
+    password: 't1L1f7#M3'
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
 
 signing:
   key: 'asd4hk1h22k2asAd12ad'
