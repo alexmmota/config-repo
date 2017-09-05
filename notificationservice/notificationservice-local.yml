@@ -17,6 +17,14 @@ spring:
     port: 5672
     username: 'admin'
     password: '1234'
+    listener:
+      default-requeue-rejected: false
+      retry:
+        enabled: true
+        initial-interval: 2000
+        max-attempts: 3
+        multiplier: 1.5
+        max-interval: 5000
   mail:
     host: 'smtpout.secureserver.net'
     port: 465
@@ -31,3 +39,4 @@ spring:
 
 signing:
   key: 'asd4hk1h22k2asAd12ad'
+
