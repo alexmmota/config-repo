@@ -24,3 +24,6 @@ redis:
 
 signing:
   key: 'asd4hk1h22k2asAd12ad'
+
+centrifugo:
+  secret: 'secret'
