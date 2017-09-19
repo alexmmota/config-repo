@@ -5,3 +5,7 @@ security:
   oauth2:
     resource:
        userInfoUri: 'http://authservice:8081/auth/user'
+
+multipart:
+  maxFileSize: '10Mb'
+  maxRequestSize: '20Mb'

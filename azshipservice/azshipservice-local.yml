@@ -29,6 +29,10 @@ security:
     resource:
        userInfoUri: 'http://authservice:8081/auth/user'
 
+multipart:
+  maxFileSize: '10Mb'
+  maxRequestSize: '20Mb'
+
 flyway:
   baseline-version: 1
   check-location: 'true'
