@@ -1,11 +1,14 @@
 signing:
   key: 'asd4hk1h22k2asAd12ad'
 
+spring:
+  http:
+    multipart:
+    max-file-size: '20MB'
+    max-request-size: '25MB'
+
 security:
   oauth2:
     resource:
        userInfoUri: 'http://authservice:8081/auth/user'
 
-multipart:
-  maxFileSize: '10Mb'
-  maxRequestSize: '20Mb'
