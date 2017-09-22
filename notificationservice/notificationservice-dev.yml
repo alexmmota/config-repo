@@ -7,7 +7,7 @@ spring:
         format_sql: 'true'
   datasource:
     driverClassName: 'com.mysql.jdbc.Driver'
-    url: 'jdbc:mysql://database:3306/db_azship?useSSL=false'
+    url: 'jdbc:mysql://google/db_azship?cloudSqlInstance=azship-179211:us-central1:db-azship&socketFactory=com.google.cloud.sql.mysql.SocketFactory'
     username: 'azship'
     password: '4Z5h1P#L1F77M3'
     testWhileIdle: 'true'
