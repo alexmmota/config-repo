@@ -8,7 +8,7 @@ spring:
   datasource:
     driverClassName: 'com.mysql.jdbc.Driver'
     url: 'jdbc:mysql://google/db_azship?cloudSqlInstance=azship-179211:us-central1:db-azship&socketFactory=com.google.cloud.sql.mysql.SocketFactory'
-    username: 'azship'
+    username: 'root'
     password: '4Z5h1P#L1F77M3'
     testWhileIdle: 'true'
     validationQuery: 'SELECT 1'
