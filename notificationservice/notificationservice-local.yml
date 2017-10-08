@@ -40,3 +40,7 @@ spring:
 signing:
   key: 'asd4hk1h22k2asAd12ad'
 
+email:
+  config:
+    from: 'alex.mota.m@gmail.com'
+    apikey: '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'
