@@ -47,4 +47,4 @@ flyway:
 
 logging:
   level:'INFO'
-  file: 'azship.log'
+  file:'azship.log'
