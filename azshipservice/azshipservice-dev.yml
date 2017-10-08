@@ -44,3 +44,7 @@ flyway:
   url: 'jdbc:mysql://google/db_azship?cloudSqlInstance=azship-179211:us-central1:db-azship&socketFactory=com.google.cloud.sql.mysql.SocketFactory'
   consumer: 'root'
   password: '4Z5h1P#L1F77M3'
+
+logging:
+  level:'INFO'
+  file: 'azship.log'

@@ -19,3 +19,6 @@ security:
     resource:
        userInfoUri: 'http://authservice:8081/auth/user'
 
+logging:
+  level:'INFO'
+  file: 'azship.log'
