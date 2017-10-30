@@ -44,3 +44,15 @@ email:
   config:
     from: 'alex.mota.m@gmail.com'
     apikey: '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'
+
+notification:
+  config:
+    driver:
+      app_id: '83e84524-f935-4b07-aa8c-56bb2f23d7b6'
+      app_auth_key: 'NzhkMGVlMTEtY2Q3OC00NGUyLTg0ZWYtNTMxM2RlNGE4YzRh'
+    shipper:
+      app_id: '83e84524-f935-4b07-aa8c-56bb2f23d7b6'
+      app_auth_key: 'NzhkMGVlMTEtY2Q3OC00NGUyLTg0ZWYtNTMxM2RlNGE4YzRh'
+    transporter:
+      app_id: '83e84524-f935-4b07-aa8c-56bb2f23d7b6'
+      app_auth_key: 'NzhkMGVlMTEtY2Q3OC00NGUyLTg0ZWYtNTMxM2RlNGE4YzRh'
