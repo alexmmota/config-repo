@@ -56,3 +56,7 @@ notification:
     transporter:
       app_id: '83e84524-f935-4b07-aa8c-56bb2f23d7b6'
       app_auth_key: 'NzhkMGVlMTEtY2Q3OC00NGUyLTg0ZWYtNTMxM2RlNGE4YzRh'
+
+sms:
+  config:
+    access_token: '1f61129054f806809d4d2375bd474520'

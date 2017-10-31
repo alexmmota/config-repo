@@ -31,3 +31,7 @@ spring:
 
 signing:
   key: 'asd4hk1h22k2asAd12ad'
+
+sms:
+  config:
+    access_token: '1f61129054f806809d4d2375bd474520'
